@@ -1,0 +1,27 @@
+.main {
+    width: 100vw;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-details {
+    margin-top: 15vh;
+    height: 20vh;
+    width: 90vw;
+}
+
+th {
+    font-size: 1.15em;
+    border-bottom: 2px solid black;
+    padding-bottom: 1vh;
+}
+
+td {
+    border-bottom: 1px solid black;
+    padding: 2.5% .5%;
+    font-size: .85em;
+    text-align: center;
+}

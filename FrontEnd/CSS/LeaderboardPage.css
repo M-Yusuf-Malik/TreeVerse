@@ -1,0 +1,28 @@
+.main {
+    width: 100vw;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.L-text {
+    font-size: 1.25em;
+    color: rgba(0, 0, 0, 0.781);
+    height: 12vh;
+    width: 30vw;
+    border: 2px solid black;
+    font-style: italic;
+    margin: 0 7.5vw;
+    border-radius: 20px;
+}
+
+a div.L-text:hover {
+    color: rgb(20, 97, 53);
+    background-color: rgba(95, 95, 95, 0.521);
+    border: 2px solid rgb(20, 97, 53);
+}
+
+.v-line {
+    height: 60vh;
+    border-right: 2.5px solid rgb(0, 0, 0);
+    transform: rotate(45deg);
+}

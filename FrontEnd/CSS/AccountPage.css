@@ -1,0 +1,50 @@
+.main {
+    width: 100vw;
+    height: 125vh;
+    flex-direction: column;
+}
+
+.profile-fields {
+    width: 100vw;
+    height: 7vh;
+    border-bottom: 1px solid rgb(17, 160, 41);
+    display: flex;
+    align-items: center;
+    padding-left: 25vw;
+    padding-bottom: 5vh;
+    margin: 2.5vh 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.005), rgba(163, 77, 77, 0.005));
+}
+
+.profile-fields label {
+    color: rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
+
+.user-data {
+    margin-left: 2.5vw;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.15em;
+    font-style: italic;
+}
+
+.two-towers {
+    margin-top: 7.5vh;
+    background-color: rgba(200, 200, 200, 0.00);
+    height: 5vh;
+    width: 10vw;
+    border-bottom: 2px solid rgb(17, 160, 41);
+    border-top: 2px solid rgb(17, 160, 41);
+    box-shadow: 5px 4px 25px 0.1em rgba(24, 23, 23, 0.25);
+    border-radius: 50px;
+    font-size: .7em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+div.two-towers:hover {
+    background-color: rgba(75, 75, 75, 0.726);
+    color: rgba(0, 0, 0, 0.774);
+    border: 1px solid rgb(219, 219, 219);
+    cursor: pointer;
+}

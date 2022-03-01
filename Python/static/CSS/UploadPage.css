@@ -1,0 +1,120 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.form {
+    height: 35vh;
+    width: 25vw;
+    box-shadow: 0 0 .3em 1px rgba(44, 73, 59, 0.05), 0.3em 0.3em 1em rgba(7, 8, 8, 0.25);
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #00a316;
+    border-radius: 50px;
+}
+
+span {
+    font-weight: normal;
+    font-size: .9em;
+    color: rgb(0, 0, 0);
+}
+
+.inner-upload {
+    width: 100%;
+    height: 100%;
+    padding-top: 7.5%;
+    text-align: center;
+    position: relative;
+    top: -100%;
+    background-size: 7.5vw 15vh;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.form:hover {
+    background-color: #16a0843f;
+    border-top: 2px solid rgba(214, 0, 0, 0.609);
+}
+
+form input[type=file] {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50px;
+    opacity: 0;
+}
+
+.checkbox-text {
+    width: 80vw;
+    margin-top: .5%;
+    position: relative;
+}
+
+input[type=checkbox] {
+    width: 1vw;
+    height: 1vw;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 25%;
+}
+
+.form-b button {
+    height: 5vh;
+    width: 10vw;
+    margin-top: 17.5%;
+    color: rgb(0, 0, 0);
+    font-size: .9em;
+    background-color: rgba(0, 129, 65, 0);
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #00a316;
+}
+
+.form-b button:hover {
+    box-shadow: 0 0 .3em 1px rgba(27, 31, 29, 0.05), 0.3em 0.3em 1em rgba(7, 8, 8, 0.25);
+    background: #1491748c;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.705);
+}
+
+.form-b button:active {
+    border: 0;
+    background: black;
+}
+
+.form-b button:checked {
+    background: none;
+    border: 5px solid rgb(255, 0, 0);
+}
+
+.upload-details {
+    margin-top: 7.5vh;
+    width: 21.5vw;
+    height: 5vh;
+    color: rgb(0, 0, 0);
+    background-image: url('Arrow_Logo.png');
+    background-size: 25px;
+    background-position: 19vw 1vh;
+    padding-left: 10px;
+    padding-top: .75vh;
+    background-repeat: no-repeat;
+    font-size: 1em;
+    background-color: rgba(0, 129, 65, 0);
+    border-radius: 10px;
+    border-bottom: 2px solid #00a316;
+}
+
+.upload-details:hover {
+    box-shadow: 0em .5em 1.5em .13em rgba(7, 8, 8, 0.432);
+    padding: 0;
+    padding-top: 2%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background: #1491748c;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.705);
+}

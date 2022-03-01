@@ -1,0 +1,129 @@
+.main {
+    width: 100vw;
+    height: 365vh;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main h1,
+.main h2 {
+    font-size: 60px;
+    position: relative;
+    top: -90vh;
+    color: rgb(0, 0, 0);
+}
+
+div.nav-links a {
+    color: rgb(29, 56, 32);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.main h2 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+img {
+    border-radius: 5px;
+}
+
+.links-divs {
+    border: 2px solid rgb(0, 78, 17);
+    width: 25vw;
+    height: 40vh;
+    border-radius: 50px;
+    box-shadow: 0 0 .3em 1px rgba(27, 31, 29, 0.05), 0.3em 0.3em 1em rgba(7, 8, 8, 0.25);
+    background: linear-gradient(to right, rgba(15, 15, 15, 0.842), rgba(91, 187, 115, 0.26));
+    flex-direction: column;
+    backdrop-filter: blur(8px);
+}
+
+.links-img-container {
+    width: 25vw;
+    height: 40vh;
+    margin-left: 15vw;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 8vw 0;
+    border-radius: 55px;
+}
+
+div.links-divs p {
+    height: 7vh;
+    font-size: .7em;
+    text-align: center;
+    color: rgba(238, 238, 238, 0.589);
+    padding: 10px 0;
+}
+
+.hr-line {
+    width: 15vw;
+    box-shadow: 2px 3px .3em 1px rgba(8, 49, 28, 0.219), 0.3em 0.3em 1em rgba(7, 8, 8, 0.25);
+    border: 1px dashed rgb(0, 0, 0);
+}
+
+.text-in-links {
+    font-size: 1.15em;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.links-div-main {
+    height: 70vh;
+    width: 100vw;
+    justify-content: space-between;
+    border: none;
+    background-color: #F9F9FB;
+}
+
+div.links-divs p {
+    margin-bottom: -10%;
+}
+
+.help-text {
+    border: 2px solid rgba(133, 133, 133, 0.561);
+    background: linear-gradient(to right, rgba(110, 110, 110, 0.842), rgba(4, 33, 102, 0.384));
+}
+
+.help-img {
+    margin-right: 20vw;
+    margin-left: 0;
+    background-position: -14vw 0;
+}
+
+.links-divs-button {
+    box-shadow: -.2em -.3em .3em 1px rgba(27, 31, 29, 0.05), 0.3em 0.3em 1em rgba(7, 8, 8, 0.144);
+    width: 7.5vw;
+    height: 7.5vw;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 30vw;
+    opacity: 0.75;
+}
+
+.links-divs-button a {
+    width: 7.5vw;
+    height: 7.5vw;
+}
+
+.links-divs-button img {
+    width: 50%;
+    height: 50%;
+}
+
+.links-divs-button:hover {
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: -.2em -.3em .3em 1px rgba(27, 31, 29, 0.05), 0.3em 0.3em 1em rgba(7, 8, 8, 0.295);
+    background-color: rgba(47, 172, 31, 0.315);
+}
+
+.even-hover:hover {
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: -.2em -.3em .3em 1px rgba(27, 31, 29, 0.05), 0.3em 0.3em 1em rgba(7, 8, 8, 0.295);
+    background-color: rgba(57, 88, 173, 0.171);
+}

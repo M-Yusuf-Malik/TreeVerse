@@ -1,0 +1,29 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(34, 37, 35, 0.7);
+    background-image: url('../Pictures/Background_Error.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.error-text {
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.664);
+    height: 30vh;
+    width: 100vw;
+    background-color: rgba(249, 249, 251, 0.5);
+    border-top: solid;
+    border-bottom: solid;
+    font-style: italic;
+}
+
+.img-back {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    z-index: 5;
+    margin-top: 1.75vh;
+    margin-left: 1vw;
+    position: fixed;
+}
