@@ -1,7 +1,7 @@
 # TreeVerse
 A web to check if the user added the plant and give points based on the result.
 
-The model for classification is in AI (Model).
+The model for classification is in AI (Model)
 
 PHP and SQL-related files are in the backend, which inserts and increases the score and user credentials
 
